@@ -1,0 +1,9 @@
+button.over:hover{
+    color: white;
+    background-color: black;
+}
+
+.social-links a{
+    color: blue;
+    text-decoration: none;
+  }
