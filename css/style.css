@@ -1,4 +1,320 @@
-.{/* Principal */
+button{
+  color: black;
+  border: none;
+  }
+
+button.over:hover{
+  color:white;
+  background-color: #188ce8;
+  border-radius: 2px;
+  border: #188ce8;
+    position: absolute;
+   }
+
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: #188ce8;
+}
+
+:root{
+  --web-studio:"Raleway";
+  }
+
+/* Estudio Web */
+.web-studio{
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  
+  font-family: var(--web-studio);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  text-align: right;
+  letter-spacing: 0.03em;
+  
+  color: #2196f3;
+  }
+
+:root{
+--font-family:"Roboto";
+}
+
+/* Estudio */
+.studio{
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  color: #212121;
+  }
+
+/* Portafolio */
+.portfolio{
+position: absolute;
+width: 65px;
+height: 16px;
+left: 552px;
+top: 32px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+/* Contacto */
+.contact{
+position: absolute;
+width: 59px;
+height: 16px;
+left: 679px;
+top: 32px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+/* info@devstudio.com */
+.devstudio{
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+/* +52 55 5529 6000 */
+.phone{
+position: absolute;
+width: 118px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+:root{
+--square-all:#2196F3;;
+}
+
+/* Rectángulo 10 */
+.square-all{
+position: absolute;
+width: 73px;
+height: 38px;
+left: calc(50% - 73px/2 - 268.5px);
+top: calc(100% - 38px/2 - 735px);
+
+background: var(--square-all);
+}
+/* shadow-middle */
+.shadow-middle{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  }
+  
+.all-font{
+
+  width: fit-content;
+  height: 38px;
+  padding: 14px 14px 20px 25px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 8px;
+vertical-align: middle;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.list-style{
+  list-style: none;
+}
+
+:root{
+  --square-background:#F5F4FA;
+}
+
+/* Rectángulo 10 */
+.square-website{
+position: absolute;
+width: 128px;
+height: 38px;
+left: calc(50% - 128px/2 - 160px);
+top: calc(100% - 38px/2 - 735px);
+
+background: var(--square-background);
+border-radius: 4px;
+}
+
+/* Sitios-web */
+
+.website{
+  width: fit-content;
+  height: 38px;
+  padding: 10px 23px 15px 34px;
+
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+vertical-align: middle;
+text-align: center;
+
+}
+
+.square-apps{
+
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: calc(50% - 145px/2 - 15.5px);
+  top: calc(100% - 38px/2 - 735px);
+  
+  background:var(--square-background);
+  border-radius: 4px;
+
+}
+
+.applications{
+  width: fit-content;
+  height: 38px;
+  padding: 14px 26px 20px 30px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 8px;
+vertical-align: middle;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.square-design{
+position: absolute;
+width: 103px;
+height: 38px;
+left: calc(50% - 103px/2 + 116.5px);
+top: calc(100% - 38px/2 - 735px);
+
+background: var(--square-background);
+border-radius: 4px;
+}
+
+.design{
+  width: fit-content;
+  height: 38px;
+  padding: 14px 26px 20px 28px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 8px;
+vertical-align: middle;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.square-marketing{
+  position: absolute;
+width: 130px;
+height: 38px;
+left: calc(50% - 130px/2 + 241px);
+top: calc(100% - 38px/2 - 735px);
+
+background: var(--square-background);
+border-radius: 4px;
+}
+
+.marketing{
+  width: fit-content;
+  height: 38px;
+  padding: 14px 26px 20px 33px;
+
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 10px;
+vertical-align: middle;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.style{
+
+  /* Principal */
 
 position: relative;
 width: 1600px;
@@ -60,23 +376,6 @@ width: 281px;
 height: 16px;
 left: 453px;
 top: 32px;
-
-/* Estudio */
-
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-font-family: "Roboto";
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
 
 /* Enlace activo */
 
