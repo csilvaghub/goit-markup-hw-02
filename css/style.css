@@ -437,7 +437,8 @@ background: #FFFFFF;
   text-decoration: none;
 }
 
-.link:hover {
+.link:hover, 
+.link:focus {
   color: #188ce8;
 }
 
