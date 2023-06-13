@@ -991,3 +991,6 @@ top: 1700px;
 background: #2F303A;
 }
 
+.no-gap {
+  display: block;
+}
