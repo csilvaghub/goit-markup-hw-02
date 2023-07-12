@@ -1,0 +1,85 @@
+a,
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+:focus {
+  color: #2196f3;
+}
+
+button {
+  width: fit-content;
+  height: 35px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+:root {
+  --web-studio: "Raleway";
+}
+
+:root {
+  --font-family: "Roboto";
+}
+
+body {
+  font-family: var(--font-family), "Helvetica Neue", "Verdana", "Tahoma",
+    sans-serif;
+}
+
+.webstudio-style {
+  font-family: var(--web-studio);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.header-style-studio > nav,
+ul {
+  font-size: 14px;
+}
+
+.style-h1-studio {
+  text-transform: uppercase;
+}
+
+.style-h3-studio > li:not(p) > h3 {
+  text-transform: uppercase;
+}
+.uppercase-style-footer {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.style-section-3-studio > ul {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+.description-ourteam {
+  color: #757575;
+  font-weight: 400;
+}
+
+.style-section-2-portfolio > li:not(p) > h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.filter-image-style {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
